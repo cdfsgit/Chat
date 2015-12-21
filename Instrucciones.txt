@@ -1,0 +1,11 @@
+1: Compilar el servidor
+$ javac Chat.java ConexionCliente.java Servidor.java EventoConexion.java
+
+2: Compilar el cliente
+$ javac Chat.java Cliente.java
+
+3: Ejecutar el servidor:
+$ java Chat [puerto de escucha]
+
+4: Ejecutar el cliente
+$ java Chat [ip servidor] [puerto]

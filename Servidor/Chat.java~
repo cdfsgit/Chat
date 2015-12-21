@@ -1,0 +1,11 @@
+package SocketChat;
+
+public class Chat {
+    public static void main(String[] args) {
+        int puertoEscucha, puertoAlla;
+        String dispositivoAlla;
+        
+        puertoEscucha = Integer.parseInt(args[0]);
+        System.out.println(puertoEscucha);
+    }
+}
